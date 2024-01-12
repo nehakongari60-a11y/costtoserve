@@ -1,0 +1,14 @@
+[project]
+name = "costtoserve"
+version = "0.1.0"
+description = "Activity-based cost-to-serve that reports which customers change profitability sign depending on the allocation driver."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
